@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ctags -R project/* --hxclude=project/venv
+ctags -R project/* --exclude=project/venv

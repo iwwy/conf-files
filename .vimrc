@@ -29,7 +29,9 @@ nmap <Space> <C-f>
 nnoremap <silent> <C-l> :nohl<CR><C-l>
 inoremap <C-f> <C-x><C-f>
 
-nmap <unique> <F9> "+
-vmap <unique> <F9> "+
-nmap <unique> <F11> :e ++enc=cp866<CR>
-nmap <unique> <F12> :e ++enc=cp1251<CR>
+nmap <unique> <F12> "+
+vmap <unique> <F12> "+
+nmap <unique> <leader><F11> :e ++enc=cp866<CR>
+nmap <unique> <leader><F12> :e ++enc=cp1251<CR>
+nmap <unique> <leader><F3> :cn<CR>
+nmap <unique> <leader><S-F3> :cp<CR>
